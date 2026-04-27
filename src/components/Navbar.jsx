@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-
+import { Menu, X } from 'lucide-react';
 import logo from '../assets/images/logo.png';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,15 +18,19 @@ const Navbar = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <div className="logo">
-          <img src={logo} alt="NIKOV" style={{ height: '100px', width: 'auto', objectFit: 'contain' }} />
+          <img src={logo} alt="NIKOV" />
         </div>
         
-        <nav className="nav-links">
-          <a href="#products">Products</a>
-          <a href="#features">Why NIKOV</a>
-          <a href="#experience">Story</a>
-          <a href="#reviews">Reviews</a>
-          <a href="#products" className="shop-now-link">Shop Now</a>
+        <button className="mobile-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+        </button>
+
+        <nav className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+          <a href="#products" onClick={() => setIsMenuOpen(false)}>Products</a>
+          <a href="#features" onClick={() => setIsMenuOpen(false)}>Why NIKOV</a>
+          <a href="#experience" onClick={() => setIsMenuOpen(false)}>Story</a>
+          <a href="#reviews" onClick={() => setIsMenuOpen(false)}>Reviews</a>
+          <a href="#products" className="shop-now-link" onClick={() => setIsMenuOpen(false)}>Shop Now</a>
         </nav>
       </div>
     </header>

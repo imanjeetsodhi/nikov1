@@ -10,7 +10,7 @@ const Reviews = () => {
           <h2>Words from <span className="italic">our Community.</span></h2>
         </div>
         
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
           <div className="review-card reveal" style={{ padding: '3rem 2rem', background: 'var(--white)', borderRadius: 'var(--border-radius)' }}>
             <div className="stars">
               <Star size={20} fill="#D4AF37" stroke="none" />
