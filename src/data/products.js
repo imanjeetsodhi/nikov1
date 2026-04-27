@@ -1,7 +1,7 @@
-import faceWashImg from '../assets/images/face.PNG';
-import shampooImg from '../assets/images/shampoo.PNG';
-import conditionerImg from '../assets/images/conditioner.PNG';
-import comboImg from '../assets/images/combo.PNG';
+import faceWashImg from '../assets/images/face.png';
+import shampooImg from '../assets/images/shampoo.png';
+import conditionerImg from '../assets/images/conditioner.png';
+import comboImg from '../assets/images/combo.png';
 
 export const products = [
   {

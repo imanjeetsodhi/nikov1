@@ -1,4 +1,3 @@
-import React from 'react';
 import { Leaf, ShieldCheck, Droplets, Sparkles } from 'lucide-react';
 
 const Features = () => {

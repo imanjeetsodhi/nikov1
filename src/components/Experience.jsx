@@ -1,5 +1,5 @@
-import comboImg from '../assets/images/combo.PNG';
-import bgBanner from '../assets/images/experienceBanner.PNG';
+import comboImg from '../assets/images/combo.png';
+import bgBanner from '../assets/images/experienceBanner.png';
 
 const Experience = () => {
   return (

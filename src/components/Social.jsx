@@ -1,7 +1,7 @@
-import combo from '../assets/images/combo.PNG';
-import shampoo from '../assets/images/shampoo.PNG';
-import face from '../assets/images/face.PNG';
-import conditioner from '../assets/images/conditioner.PNG';
+import combo from '../assets/images/combo.png';
+import shampoo from '../assets/images/shampoo.png';
+import face from '../assets/images/face.png';
+import conditioner from '../assets/images/conditioner.png';
 
 const Social = () => {
   return (
