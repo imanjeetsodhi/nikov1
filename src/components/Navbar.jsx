@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import logo from '../assets/images/logo.png';
+
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -14,7 +16,9 @@ const Navbar = () => {
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
-        <div className="logo">NIKOV</div>
+        <div className="logo">
+          <img src={logo} alt="NIKOV" style={{ height: '100px', width: 'auto', objectFit: 'contain' }} />
+        </div>
         
         <nav className="nav-links">
           <a href="#products">Products</a>

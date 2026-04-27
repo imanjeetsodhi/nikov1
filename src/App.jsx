@@ -54,7 +54,7 @@ function App() {
       <Footer />
       
       {/* Floating Elements */}
-      <a href="https://wa.me/yournumber" className="whatsapp-widget" target="_blank" rel="noopener noreferrer">
+      <a href="https://wa.me/message/6DKPA33LE5ZZG1" className="whatsapp-widget" target="_blank" rel="noopener noreferrer">
         <MessageCircle size={32} fill="currentColor" />
       </a>
       

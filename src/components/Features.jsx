@@ -28,9 +28,9 @@ const Features = () => {
   return (
     <section id="features" className="features-section">
       <div className="container">
-        <div className="section-header reveal">
+        <div className="section-header reveal align-right-content">
           <span className="subtitle-caps">WHY NIKOV</span>
-          <h2>Honest formulas. Real care.</h2>
+          <h2>Honest formulas. <span className="italic">Real care.</span></h2>
         </div>
         <div className="features-grid">
           {features.map((feature, index) => (

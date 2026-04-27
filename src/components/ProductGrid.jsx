@@ -7,7 +7,7 @@ const ProductGrid = () => {
       <div className="container">
         <div className="section-header reveal">
           <span className="subtitle-caps">THE COLLECTION</span>
-          <h2>Crafted for your daily ritual.</h2>
+          <h2>Crafted for your <span className="italic cream-text">Daily Ritual.</span></h2>
         </div>
 
         <div className="product-grid">

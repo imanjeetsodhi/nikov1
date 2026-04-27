@@ -1,5 +1,4 @@
-import React from 'react';
-import heroImg from '../assets/images/hero.png';
+import heroImg from '../assets/images/banner.PNG';
 
 const Hero = () => {
   return (
@@ -7,7 +6,7 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content reveal">
           <span className="subtitle-caps">CLEAN · CONSCIOUS · CRAFTED</span>
-          <h1>Clean Beauty.<br />Real Results.</h1>
+          <h1>Clean Beauty.<br /><span className="italic cream-text">Real Results.</span></h1>
           <p>
             Elevate your daily self-care with NIKOV — simple, effective, 
             and gentle formulations made for modern skin and hair.

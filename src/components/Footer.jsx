@@ -1,4 +1,4 @@
-import React from 'react';
+import logo from '../assets/images/logo.png';
 
 const Footer = () => {
   return (
@@ -6,15 +6,17 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-col">
-            <div className="logo" style={{ marginBottom: '1.5rem' }}>NIKOV</div>
+            <div className="logo" style={{ marginBottom: '1.5rem' }}>
+              <img src={logo} alt="NIKOV" style={{ height: '80px', width: 'auto', objectFit: 'contain' }} />
+            </div>
             <p>Simple, effective self-care.</p>
           </div>
           
           <div className="footer-col">
             <h5>Connect</h5>
-            <a href="https://wa.me/yournumber">WhatsApp</a>
-            <a href="#">Instagram</a>
-            <p>hello@nikov.com</p>
+            <a href="https://wa.me/message/6DKPA33LE5ZZG1">WhatsApp</a>
+            <a href="https://www.instagram.com/nikov_care?igsh=MTRuZjdvbXduY2x1cQ%3D%3D&utm_source=qr">Instagram</a>
+            <p>info.nikovsales@gmail.com</p>
           </div>
           
           <div className="footer-col">
