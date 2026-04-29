@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import TrustBadges from './components/TrustBadges';
 import ProductGrid from './components/ProductGrid';
 import Features from './components/Features';
 import Experience from './components/Experience';
@@ -46,6 +47,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <TrustBadges />
         <ProductGrid />
         <Features />
         <Story />

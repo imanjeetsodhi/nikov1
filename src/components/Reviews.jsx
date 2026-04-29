@@ -19,10 +19,9 @@ const Reviews = () => {
               <Star size={20} fill="#D4AF37" stroke="none" />
             </div>
             <p className="review-text" style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
-              "My hair feels softer and healthier than ever. Truly a daily essential."
+              "Nice products ... Really liked it. Highly recommended to all"
             </p>
-            <p className="reviewer">Aanya R.</p>
-            <span className="verified">Verified Buyer</span>
+            <p className="reviewer">Isha Verma</p>
           </div>
 
           <div className="review-card reveal" style={{ padding: '3rem 2rem', background: 'var(--white)', borderRadius: 'var(--border-radius)' }}>
@@ -34,10 +33,9 @@ const Reviews = () => {
               <Star size={20} fill="#D4AF37" stroke="none" />
             </div>
             <p className="review-text" style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
-              "The face wash gives such a natural glow. No dryness at all!"
+              "Such a "wowww" products. Must Buy"
             </p>
-            <p className="reviewer">Ishaan K.</p>
-            <span className="verified">Verified Buyer</span>
+            <p className="reviewer">Riti Raj</p>
           </div>
 
           <div className="review-card reveal" style={{ padding: '3rem 2rem', background: 'var(--white)', borderRadius: 'var(--border-radius)' }}>
@@ -49,10 +47,9 @@ const Reviews = () => {
               <Star size={20} fill="#D4AF37" stroke="none" />
             </div>
             <p className="review-text" style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
-              "Nikov products have replaced my entire shelf. Highly recommended."
+              "My wife said that this is a very good product and she wants to recommend it to everyone."
             </p>
-            <p className="reviewer">Meera P.</p>
-            <span className="verified">Verified Buyer</span>
+            <p className="reviewer">Vaibhav Solanki</p>
           </div>
         </div>
       </div>
