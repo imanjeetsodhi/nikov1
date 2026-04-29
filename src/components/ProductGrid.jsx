@@ -17,6 +17,7 @@ const ProductGrid = () => {
               </div>
               <h3>{product.name}</h3>
               <p>{product.description}</p>
+              <div style={{ flex: 1 }}></div>
               <div className="product-buttons">
                 <a href={product.links.amazon} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
                   BUY ON AMAZON

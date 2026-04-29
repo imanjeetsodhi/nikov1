@@ -10,7 +10,7 @@ const Reviews = () => {
         </div>
         
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
-          <div className="review-card reveal" style={{ padding: '3rem 2rem', background: 'var(--white)', borderRadius: 'var(--border-radius)' }}>
+          <div className="review-card reveal" style={{ padding: '3rem 2rem', background: 'var(--white)', borderRadius: 'var(--border-radius)', display: 'flex', flexDirection: 'column' }}>
             <div className="stars">
               <Star size={20} fill="#D4AF37" stroke="none" />
               <Star size={20} fill="#D4AF37" stroke="none" />
@@ -21,10 +21,11 @@ const Reviews = () => {
             <p className="review-text" style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
               "Nice products ... Really liked it. Highly recommended to all"
             </p>
+            <div style={{ flex: 1 }}></div>
             <p className="reviewer">Isha Verma</p>
           </div>
 
-          <div className="review-card reveal" style={{ padding: '3rem 2rem', background: 'var(--white)', borderRadius: 'var(--border-radius)' }}>
+          <div className="review-card reveal" style={{ padding: '3rem 2rem', background: 'var(--white)', borderRadius: 'var(--border-radius)', display: 'flex', flexDirection: 'column' }}>
             <div className="stars">
               <Star size={20} fill="#D4AF37" stroke="none" />
               <Star size={20} fill="#D4AF37" stroke="none" />
@@ -35,10 +36,11 @@ const Reviews = () => {
             <p className="review-text" style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
               "Such a "wowww" products. Must Buy"
             </p>
+            <div style={{ flex: 1 }}></div>
             <p className="reviewer">Riti Raj</p>
           </div>
 
-          <div className="review-card reveal" style={{ padding: '3rem 2rem', background: 'var(--white)', borderRadius: 'var(--border-radius)' }}>
+          <div className="review-card reveal" style={{ padding: '3rem 2rem', background: 'var(--white)', borderRadius: 'var(--border-radius)', display: 'flex', flexDirection: 'column' }}>
             <div className="stars">
               <Star size={20} fill="#D4AF37" stroke="none" />
               <Star size={20} fill="#D4AF37" stroke="none" />
@@ -49,6 +51,7 @@ const Reviews = () => {
             <p className="review-text" style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
               "My wife said that this is a very good product and she wants to recommend it to everyone."
             </p>
+            <div style={{ flex: 1 }}></div>
             <p className="reviewer">Vaibhav Solanki</p>
           </div>
         </div>

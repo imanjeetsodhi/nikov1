@@ -14,10 +14,10 @@ const Social = () => {
         </a>
         
         <div className="social-grid reveal">
-          <div className="social-img"><img src={combo} alt="NIKOV Instagram" /></div>
-          <div className="social-img"><img src={shampoo} alt="Social 2" /></div>
-          <div className="social-img"><img src={face} alt="Social 3" /></div>
-          <div className="social-img"><img src={conditioner} alt="Social 4" /></div>
+          <div className="social-img"><img src={combo} alt="NIKOV Instagram" style={{ borderRadius: '12px' }} /></div>
+          <div className="social-img"><img src={shampoo} alt="Social 2" style={{ borderRadius: '12px' }} /></div>
+          <div className="social-img"><img src={face} alt="Social 3" style={{ borderRadius: '12px' }} /></div>
+          <div className="social-img"><img src={conditioner} alt="Social 4" style={{ borderRadius: '12px' }} /></div>
         </div>
 
         <div style={{ marginTop: '100px' }} className="reveal">
