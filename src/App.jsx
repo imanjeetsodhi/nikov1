@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import ProductGrid from './components/ProductGrid';
 import Features from './components/Features';
 import Experience from './components/Experience';
+import Story from './components/Story';
 import Reviews from './components/Reviews';
 import Social from './components/Social';
 import Footer from './components/Footer';
@@ -47,6 +48,7 @@ function App() {
         <Hero />
         <ProductGrid />
         <Features />
+        <Story />
         <Experience />
         <Reviews />
         <Social />

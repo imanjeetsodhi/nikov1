@@ -32,7 +32,7 @@ export const products = [
     description: 'Hydrates and detangles effortlessly',
     image: conditionerImg,
     links: {
-      amazon: 'https://amzn.in/d/03T5zzGO',
+      amazon: 'https://amzn.in/d/06XUQ9JV',
       flipkart: 'https://dl.flipkart.com/s/DFefxFuuuN',
       meesho: 'https://www.meesho.com/search?q=nikov'
     }
