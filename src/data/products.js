@@ -6,13 +6,13 @@ import comboImg from '../assets/images/combo.png';
 export const products = [
   {
     id: 1,
-    name: 'Ubtan Face Wash',
-    description: 'Deep cleansing with a natural glow',
-    image: faceWashImg,
+    name: 'Complete Care Combo',
+    description: 'The ultimate ritual for skin and hair',
+    image: comboImg,
     links: {
-      amazon: 'https://amzn.in/d/0g1hK9WC',
-      flipkart: 'https://www.flipkart.com/search?q=nikov',
-      meesho: 'https://www.meesho.com/s/p/6znliz?utm_source=si'
+      amazon: 'https://amzn.in/d/0bBfl1ga',
+      flipkart: 'https://dl.flipkart.com/s/qXKtiqNNNN',
+      meesho: 'https://www.meesho.com/s/p/eo0cna?utm_source=si'
     }
   },
   {
@@ -39,13 +39,11 @@ export const products = [
   },
   {
     id: 4,
-    name: 'Complete Care Combo',
-    description: 'The ultimate ritual for skin and hair',
-    image: comboImg,
+    name: 'Ice Roller',
+    description: 'Soothes, de-puffs your skin instantly',
+    image: faceWashImg,
     links: {
-      amazon: 'https://amzn.in/d/0bBfl1ga',
-      flipkart: 'https://dl.flipkart.com/s/qXKtiqNNNN',
-      meesho: 'https://www.meesho.com/s/p/eo0cna?utm_source=si'
+      amazon: 'https://amzn.in/d/0g1hK9WC',
     }
-  }
+  },
 ];

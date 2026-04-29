@@ -12,7 +12,7 @@ const Hero = () => {
             and gentle formulations made for modern skin and hair.
           </p>
           <div className="hero-actions">
-            <a href="https://amzn.in/d/0bBfl1ga" className="btn btn-primary">Shop on Amazon →</a>
+            <a href="https://www.amazon.in/l/27943762031?me=A3C9CL00UOOAS3&ref_=ssf_share" className="btn btn-primary">Shop on Amazon →</a>
             <a href="https://wa.me/message/6DKPA33LE5ZZG1" className="btn btn-outline">Order on WhatsApp</a>
           </div>
         </div>

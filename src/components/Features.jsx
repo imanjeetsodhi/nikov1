@@ -27,7 +27,7 @@ const Features = () => {
   return (
     <section id="features" className="features-section">
       <div className="container">
-        <div className="section-header reveal align-right-content">
+        <div className="section-header reveal">
           <span className="subtitle-caps">WHY NIKOV</span>
           <h2>Honest formulas. <span className="italic">Real care.</span></h2>
         </div>

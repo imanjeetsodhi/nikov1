@@ -571,9 +571,9 @@ h1, h2, h3, h4 {
 
 /* Footer */
 .footer {
-  background-color: var(--bg-primary);
+  background-color: var(--accent-primary);
   padding: 100px 0 60px;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-content {
@@ -606,16 +606,16 @@ h1, h2, h3, h4 {
 }
 
 .footer-col a:hover {
-  color: var(--accent-primary);
+  color: #FFFFFF;
   transform: translateX(5px);
 }
 
 .footer-bottom {
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 3rem;
   text-align: center;
   font-size: 0.85rem;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.05em;
 }
 
@@ -668,14 +668,39 @@ h1, h2, h3, h4 {
   }
   .hero-content h1 { font-size: 2.8rem; }
   .hero-content p { font-size: 1rem; }
-  .hero-actions { flex-direction: column; gap: 1rem; }
+  .hero-actions { flex-direction: column; gap: 1rem; align-items: flex-start; justify-content: flex-start !important; }
   .product-grid { grid-template-columns: 1fr; gap: 3rem; }
+  
+  .section-header {
+    text-align: left;
+    margin-bottom: 4rem;
+  }
+
+  .align-right-content {
+    align-items: flex-start;
+    text-align: left;
+  }
+
   .features-grid { grid-template-columns: 1fr; }
+  .feature-card { text-align: left; padding: 3rem 2rem; }
+  .feature-icon { justify-content: flex-start; }
+
   .experience-text h2 { font-size: 2.8rem; }
   .experience-text p { font-size: 1rem; }
-  .review-text { font-size: 1.8rem !important; }
-  .footer-content { flex-direction: column; gap: 4rem; text-align: center; align-items: center; }
+  
+  .reviews-section { text-align: left; }
+  .review-card { padding: 2.5rem 1.5rem !important; margin-left: 0; text-align: left; }
+  .stars { justify-content: flex-start; }
+  .review-text { font-size: 1.5rem !important; text-align: left; }
+
+  .social-section { text-align: left; }
+  .social-section h2 { font-size: 2.8rem !important; }
+  .social-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .footer-content { flex-direction: column; gap: 3rem; text-align: left; align-items: flex-start; }
+  .footer-col { max-width: 100%; }
   .footer-col a:hover { transform: none; }
+  .footer-bottom { text-align: left; }
   .whatsapp-widget { bottom: 1.5rem; right: 1.5rem; width: 55px; height: 55px; }
   .buy-now-pill { bottom: 1.5rem; padding: 1rem 2.5rem; font-size: 0.75rem; }
 }
