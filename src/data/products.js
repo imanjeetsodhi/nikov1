@@ -6,8 +6,8 @@ import comboImg from '../assets/images/combo.png';
 export const products = [
   {
     id: 1,
-    name: 'Complete Care Combo',
-    description: 'The ultimate ritual for skin and hair',
+    name: 'NIKOV Nourish Shampoo & Conditioner Combo 300ml +300ml ',
+    description: 'Helps reduce dandruff, controls frizz and dryness for smooth, soft and manageable hair. Sulfate free, paraben free and silicone free formula suitable for men and women, ideal for daily use and all hair types.',
     image: comboImg,
     links: {
       amazon: 'https://amzn.in/d/0bBfl1ga',
@@ -17,8 +17,8 @@ export const products = [
   },
   {
     id: 2,
-    name: 'Nourish Shampoo',
-    description: 'Restores softness from root to tip',
+    name: 'NIKOV Nourish Shampoo 300ml',
+    description: 'A gentle daily use shampoo enriched with Aloe Vera and Coconut that helps cleanse the scalp and manage dryness. Leaves hair feeling fresh, soft and healthy looking after every wash.',
     image: shampooImg,
     links: {
       amazon: 'https://amzn.in/d/03T5zzGO',
@@ -28,19 +28,18 @@ export const products = [
   },
   {
     id: 3,
-    name: 'Silk Conditioner',
-    description: 'Hydrates and detangles effortlessly',
+    name: 'NIKOV Daily Nourish Conditioner 300ml ',
+    description: 'Designed to nourish dry and frizzy hair, this conditioner helps improve smoothness and manageability. Its lightweight formula leaves hair soft, smooth and easy to style for daily care.',
     image: conditionerImg,
     links: {
       amazon: 'https://amzn.in/d/06XUQ9JV',
       flipkart: 'https://dl.flipkart.com/s/DFefxFuuuN',
-      meesho: 'https://www.meesho.com/search?q=nikov'
     }
   },
   {
     id: 4,
-    name: 'Ice Roller',
-    description: 'Soothes, de-puffs your skin instantly',
+    name: 'Ice Face Roller',
+    description: 'Ice Roller for Face and Eye,Food-Grade Leak-Proof Silicone Cube, Reusable Face Massage,Ice Mold for Face,Face Massager,Facial Beauty Ice Roller,Skin Care Tools (Striped Pink)',
     image: faceWashImg,
     links: {
       amazon: 'https://amzn.in/d/0g1hK9WC',
