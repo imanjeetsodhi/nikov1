@@ -24,8 +24,8 @@ const Social = () => {
           <h2 style={{ fontSize: '4.5rem' }}>Upgrade your daily care routine.</h2>
           <p style={{ marginBottom: '2rem', fontSize: '1.2rem' }}>Simple steps. Powerful results.</p>
           <div className="hero-actions" style={{ justifyContent: 'center' }}>
-            <a href="https://amazon.in" className="btn btn-primary">Shop on Amazon</a>
-            <a href="https://wa.me/yournumber" className="btn btn-outline">Chat on WhatsApp</a>
+            <a href="https://amazon.in/storefront?me=A3C9CL00UOOAS3&ref_=ssf_share" className="btn btn-primary">Shop on Amazon</a>
+            <a href="https://wa.me/message/6DKPA33LE5ZZG1" className="btn btn-outline">Chat on WhatsApp</a>
           </div>
         </div>
       </div>
