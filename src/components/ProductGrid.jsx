@@ -19,14 +19,8 @@ const ProductGrid = () => {
               <p>{product.description}</p>
               <div style={{ flex: 1 }}></div>
               <div className="product-buttons">
-                <a href={product.links.amazon} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
-                  BUY ON AMAZON
-                </a>
-                <a href={product.links.flipkart} target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-sm">
-                  FLIPKART
-                </a>
-                <a href={product.links.meesho} target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-sm">
-                  MEESHO
+                <a href={product.links.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
+                  BUY ON WHATSAPP
                 </a>
               </div>
             </div>

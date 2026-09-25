@@ -5,15 +5,14 @@ const Hero = () => {
     <section className="hero">
       <div className="container">
         <div className="hero-content reveal">
-          <span className="subtitle-caps">CLEAN · CONSCIOUS · CRAFTED</span>
-          <h1>Clean Beauty.<br /><span className="italic cream-text">Real Results.</span></h1>
+          <span className="subtitle-caps">BEAUTY · STYLE · EVERYDAY ESSENTIALS</span>
+          <h1>Everything You Need.<br /><span className="italic cream-text">All in One Place.</span></h1>
           <p>
-            Elevate your daily self-care with NIKOV — simple, effective, 
-            and gentle formulations made for modern skin and hair.
+            Discover Hair Care, Skin Care, Makeup, 
+            Accessories & more from brands you love — all at NIKOV.
           </p>
           <div className="hero-actions">
-            <a href="https://www.amazon.in/l/27943762031?me=A3C9CL00UOOAS3&ref_=ssf_share" className="btn btn-primary">Shop on Amazon →</a>
-            <a href="https://wa.me/message/6DKPA33LE5ZZG1" className="btn btn-outline">Order on WhatsApp</a>
+            <a href="https://wa.me/message/UZV6MQQHUIPUA1" className="btn btn-outline">Order on WhatsApp</a>
           </div>
         </div>
       </div>

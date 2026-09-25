@@ -49,9 +49,9 @@ function App() {
         <Hero />
         <TrustBadges />
         <ProductGrid />
-        <Features />
-        <Story />
-        <Experience />
+        {/* <Features /> */}
+        {/* <Story /> */}
+        {/* <Experience /> */}
         <Reviews />
         <Social />
       </main>
