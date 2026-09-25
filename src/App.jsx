@@ -13,6 +13,7 @@ import { MessageCircle } from 'lucide-react';
 
 function App() {
   const [showBuyPill, setShowBuyPill] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,11 +45,11 @@ function App() {
 
   return (
     <div className="app">
-      <Navbar />
+      <Navbar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       <main>
         <Hero />
         <TrustBadges />
-        <ProductGrid />
+        <ProductGrid searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
         {/* <Features /> */}
         {/* <Story /> */}
         {/* <Experience /> */}
